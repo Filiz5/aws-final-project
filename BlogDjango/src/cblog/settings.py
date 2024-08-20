@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'cblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blogpage', # database name in RDS is written here
+        'NAME': 'awsproject-rds', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),#Admin1234
         'HOST': 'awsproject-rds.cdaiqg202bit.us-east-1.rds.amazonaws.com',  # database endpoint is written here
